@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- start_up colors -->
+
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="orange">#F98D29</color>
+    <color name="orange2">#FAA75A</color>
+
+    <color name="rectangle_10_color">#0F0F0F</color>
+    <color name="rectangle_12_color">#181818</color>
+    <color name="cooking_delicious_food_easily_color">#F4ECEC</color>
+    <color name="shape_color">#FFFFFF</color>
+
+    <color name="rectangle_13_color">#FFB950</color>
+    <color name="ellipse_2_color">#F98D29</color>
+    <color name="rectangle_17_color">#ffffff</color>
+    <color name="rectangle_18_color">#D9D9D9</color>
+
+    <color name="what_s_in_your_kitchen__color">#2A2A2A</color>
+    <color name="ellipse_1_color">#CCCCCC</color>
+    <color name="line_1_color">#333333</color>
+    <color name="hi_alex__color">#FAA75A</color>
+    <color name="ready_to_cook_for_breakfast__color">#423D3D</color>
+    <color name="rectangle_54_color">#D9D9D9</color>
+    <color name="pancakes_color">#353535</color>
+
+    <color name="ellipse_6_color">#ffffff</color>
+    <color name="alexander_fabian_color">#333332</color>
+    <color name="rectangle_32_color">#EEEEED</color>
+    <color name="settings_color">#333333</color>
+    <color name="line_14_color">#8F8F8F</color>
+    <color name="rectangle_33_color">#F98D29</color>
+    <color name="log_out_color">#FFFFFF</color>
+
+    <color name="library_color">#000000</color>
+    <color name="new_color">#ffffff</color>
+
+    <color name="hint_color">#bfffffff</color>
+
+    <color name="transparent">#00000000</color>
+</resources>

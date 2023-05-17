@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    >
+
+    <RelativeLayout android:id="@+id/recipe_item_container"
+        android:layout_width="match_parent"
+        android:background="@drawable/rectangle_54_shape"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:padding="10dp"
+        >
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:padding="5dp">
+
+            <TextView android:id="@+id/recipe_name"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:textColor="@color/pancakes_color"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:onClick="setRecipeSheet"
+                />
+
+            <HorizontalScrollView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/recipe_name"
+                android:layout_alignStart="@id/recipe_name"
+                >
+
+                <LinearLayout android:id="@+id/ingredients_container"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    >
+                </LinearLayout>
+            </HorizontalScrollView>
+        </RelativeLayout>
+    </RelativeLayout>
+
+</RelativeLayout>

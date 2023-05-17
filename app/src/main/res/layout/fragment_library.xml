@@ -1,0 +1,57 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent" android:layout_height="match_parent" >
+
+    <RelativeLayout android:id="@+id/libraries"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <RelativeLayout android:id="@+id/content_container"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+
+            <TextView android:id="@+id/library_text"
+                android:textStyle="bold"
+                android:textSize="32sp"
+                android:textColor="@color/library_color"
+                android:layout_marginTop="20dp"
+                android:layout_marginStart="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/library_string"
+                />
+
+            <TextView android:id="@+id/saved_recipes_text"
+                android:textStyle="bold"
+                android:textSize="15sp"
+                android:textColor="@color/library_color"
+                android:layout_below="@id/library_text"
+                android:layout_alignStart="@id/library_text"
+                android:layout_width="154.5dp"
+                android:layout_height="25.5dp"
+                android:text="@string/saved_recipes_string"
+                android:layout_marginBottom="10dp"
+                />
+            <ImageView
+                android:layout_width="250dp"
+                android:layout_height="250dp"
+                android:background="@drawable/underdevelopment_icon"
+                android:alpha="0.08"
+                android:layout_centerInParent="true"/>
+
+            <TextView
+                android:layout_width="250dp"
+                android:layout_height="250dp"
+                android:text="UNDER DEVELOPMENT"
+                android:gravity="center"
+                android:textColor="@color/black"
+                android:layout_centerInParent="true"
+                android:textSize="30dp"
+                android:textStyle="bold"
+                android:alpha="0.08"
+                />
+
+
+        </RelativeLayout>
+    </RelativeLayout>
+</RelativeLayout>

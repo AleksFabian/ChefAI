@@ -1,0 +1,70 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ingredients_sheet_background"
+    android:padding="25dp">
+    <RelativeLayout android:id="@+id/ingredients_sheet"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <RelativeLayout android:id="@+id/content_container"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center">
+
+            <View   android:id="@+id/topline"
+                android:background="@drawable/shape_shape"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
+                android:layout_width="135dp"
+                android:layout_height="5dp" />
+
+            <RelativeLayout android:id="@+id/sheettop"
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/topline"
+                android:layout_marginBottom="10dp"
+                android:layout_centerHorizontal="true">
+
+                <ImageView android:id="@+id/back"
+                    android:src="@drawable/vector_white"
+                    android:contentDescription="vector"
+                    android:layout_centerVertical="true"
+                    android:layout_width="11dp"
+                    android:layout_height="25dp"
+                    android:onClick="onClickBack"/>
+
+                <TextView android:id="@+id/recipe_title"
+                    android:textStyle="bold"
+                    android:textSize="24sp"
+                    android:textColor="@color/white"
+                    android:layout_centerHorizontal="true"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAlignment="center"
+                    android:paddingHorizontal="15dp"
+                    />
+
+            </RelativeLayout>
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@id/sheettop"
+                android:layout_centerInParent="true">
+
+                <TextView
+                    android:id="@+id/recipe_full"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/white"
+                    android:textSize="14sp"
+                    android:paddingBottom="75dp"/>
+
+            </ScrollView>
+        </RelativeLayout>
+
+    </RelativeLayout>
+</RelativeLayout>

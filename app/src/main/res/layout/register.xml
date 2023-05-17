@@ -1,0 +1,68 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:background="#FFFFFF">
+
+	<RelativeLayout android:id="@+id/register"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:background="@drawable/background_gradient"
+		 >
+
+		<RelativeLayout android:id="@+id/content_container" 
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:layout_margin="5dp">
+
+			<ImageView android:id="@+id/union"
+				android:src="@drawable/vector_back"
+				android:layout_marginTop="54dp"
+				android:layout_marginStart="30dp"
+				android:layout_width="24.46dp"
+				android:layout_height="23.61dp"
+				android:onClick="finishActivity"
+				/>
+
+			<TextView android:id="@+id/register_ek1"
+				android:textStyle="bold"
+				android:textSize="40sp"
+				android:textColor="@color/black"
+				android:shadowRadius="1"
+				android:shadowColor="#80000000"
+				android:shadowDx="-5"
+				android:shadowDy="-3"
+				android:layout_alignStart="@id/register_input"
+				android:layout_above="@id/register_input"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="@string/register_ek1_string"
+				android:layout_marginBottom="12dp"
+				 />
+
+			<RelativeLayout android:id="@+id/register_input"
+				android:background="@drawable/start_up_input_shape"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_centerInParent="true"
+				android:layout_marginBottom="12dp">
+				<EditText
+					android:id="@+id/username_et"
+					android:layout_width="290dp"
+					android:layout_height="41dp"
+					android:background="@color/transparent"
+					android:hint="Username"
+					android:paddingStart="10dp"
+					/>
+			</RelativeLayout>
+
+			<ImageView android:id="@+id/finish_button"
+				android:src="@drawable/finish_button"
+				android:contentDescription="finish_button"
+				android:layout_centerHorizontal="true"
+				android:layout_width="288dp"
+				android:layout_height="39dp"
+				android:layout_below="@id/register_input"
+				android:onClick="toLoginActivity"/>
+		</RelativeLayout>
+	</RelativeLayout>
+</RelativeLayout>

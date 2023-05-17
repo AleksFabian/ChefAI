@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">Chef AI</string>
+
+    <!-- start_up strings-->
+    <string name="cooking_delicious_food_easily_string">Cooking Delicious food easily</string>
+    <string name="say_goodbye_to_mealtime_monotony_and_hello_to_exciting_new_tastes__string">Say goodbye to mealtime monotony and hello to exciting new tastes.</string>
+
+    <!-- sign_up strings -->
+    <string name="sign_up_ek1_string">Sign up</string>
+
+    <!-- register strings -->
+    <string name="register_ek1_string">Register</string>
+    <string name="alex_string">Alex</string>
+    <string name="enter_name_string">enter name</string>
+
+    <!-- log_in strings -->
+    <string name="log_in_ek1_string">Log In</string>
+    <string name="ai_hoshino_tip_com_string">ai_hoshino@tip.com</string>
+    <string name="______________string"></string>
+
+    <!-- home_screen strings -->
+    <string name="what_s_in_your_kitchen__string">Whats in your kitchen?</string>
+    <string name="hi_alex__string">Hi Alex!</string>
+    <string name="ready_to_cook_for_breakfast__string">ready to cook for Breakfast? </string>
+    <string name="pancakes_string">Pancakes</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+    <!-- profile strings -->
+    <string name="alexander_fabian_string">Alexander Fabian</string>
+    <string name="settings_string">Settings</string>
+    <string name="log_out_string">LOG OUT</string>
+
+
+    <!-- libraries strings -->
+    <string name="library_string">Library</string>
+    <string name="saved_recipes_string">Saved Recipes</string>
+    <string name="recipe_1_string">Recipe 1</string>
+</resources>
